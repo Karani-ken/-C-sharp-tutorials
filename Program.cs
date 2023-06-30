@@ -35,38 +35,58 @@ namespace intoduction_to_C_
              Console.WriteLine("Hello " + name + " you are " + age + " years old.\n" +
                  " You scored "+score+" in your exams.");*/
             //conditional statements
-            //if statement
-            int a = 30;
-            int b = 70;
-            int c = 100;
-            if (a > b)
+            /*& //if statement
+             int a = 30;
+             int b = 70;
+             int c = 100;
+             if (a > b)
+             {
+                 // Console.WriteLine($"{a} is greater that {b} ");
+             }
+             //if else
+             if (a > b)
+             {
+                 Console.WriteLine($"{a} is the greates number");
+             }
+             else
+             {
+                 Console.WriteLine($"{b} is the greatest number");
+             }
+             //if else if else
+             if (a > b && a > c)
+             {
+                 Console.WriteLine($"{a} is greatest");
+             }
+             else if (a < b && b > c)
+             {
+                 Console.WriteLine($"{b} is the largest");
+             }
+             else
+             {
+                 Console.WriteLine($"{c} is the largest");
+              };*/
+            //Loops
+            //while loop
+            int count = 0;
+             while (count < 10)
             {
-                // Console.WriteLine($"{a} is greater that {b} ");
+                Console.WriteLine(count);
+                count++;
             }
-            //if else
-            if (a > b)
+            Console.WriteLine("do while loop");
+            //do while loop
+             count = 1;
+            do
             {
-                Console.WriteLine($"{a} is the greates number");
+                Console.WriteLine(count);
+                count++;
+            } while (count < 7);
+            //for loop
+            Console.WriteLine("for loop");
+            for (count = 0; count < 10; count++)
+            {
+                Console.WriteLine(count);
             }
-            else
-            {
-                Console.WriteLine($"{b} is the greatest number");
-            }
-            //if else if else
-            if (a > b && a > c)
-            {
-                Console.WriteLine($"{a} is greatest");
-            }
-            else if (a < b && b > c)
-            {
-                Console.WriteLine($"{b} is the largest");
-            }
-            else
-            {
-                Console.WriteLine($"{c} is the largest");
-
-
-                    };
 
 
             Console.ReadLine();
