@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,14 +26,48 @@ namespace intoduction_to_C_
              Console.WriteLine(radius);
              Console.WriteLine(isMale);*/
             //getting user input
-            Console.Write("enter your name: ");
-            string name = Console.ReadLine();
-            Console.Write("enter your age: ");
-            int age = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter your score: ");
-            double score= Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Hello " + name + " you are " + age + " years old.\n" +
-                " You scored "+score+" in your exams.");
+            /* Console.Write("enter your name: ");
+             string name = Console.ReadLine();
+             Console.Write("enter your age: ");
+             int age = Convert.ToInt32(Console.ReadLine());
+             Console.Write("Enter your score: ");
+             double score= Convert.ToDouble(Console.ReadLine());
+             Console.WriteLine("Hello " + name + " you are " + age + " years old.\n" +
+                 " You scored "+score+" in your exams.");*/
+            //conditional statements
+            //if statement
+            int a = 30;
+            int b = 70;
+            int c = 100;
+            if (a > b)
+            {
+                // Console.WriteLine($"{a} is greater that {b} ");
+            }
+            //if else
+            if (a > b)
+            {
+                Console.WriteLine($"{a} is the greates number");
+            }
+            else
+            {
+                Console.WriteLine($"{b} is the greatest number");
+            }
+            //if else if else
+            if (a > b && a > c)
+            {
+                Console.WriteLine($"{a} is greatest");
+            }
+            else if (a < b && b > c)
+            {
+                Console.WriteLine($"{b} is the largest");
+            }
+            else
+            {
+                Console.WriteLine($"{c} is the largest");
+
+
+                    };
+
 
             Console.ReadLine();
         }
