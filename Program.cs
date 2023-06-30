@@ -10,8 +10,20 @@ namespace intoduction_to_C_
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
+            //variables declaration, datatypes and initialization
+            int a = 1;
+            int b = 2;
+            char sign = '#';
+            string name = "kenneth";
 
+            double radius = 10.3;
+            bool isMale = true;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(sign);
+            Console.WriteLine(name);
+            Console.WriteLine(radius);
+            Console.WriteLine(isMale);
             Console.ReadLine();
         }
     }
