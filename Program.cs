@@ -66,27 +66,39 @@ namespace intoduction_to_C_
                  Console.WriteLine($"{c} is the largest");
               };*/
             //Loops
-            //while loop
-            int count = 0;
-             while (count < 10)
+            /* //while loop
+             int count = 0;
+              while (count < 10)
+             {
+                 Console.WriteLine(count);
+                 count++;
+             }
+             Console.WriteLine("do while loop");
+             //do while loop
+              count = 1;
+             do
+             {
+                 Console.WriteLine(count);
+                 count++;
+             } while (count < 7);
+             //for loop
+             Console.WriteLine("for loop");
+             for (count = 0; count < 10; count++)
+             {
+                 Console.WriteLine(count);
+
+             }*/
+
+            //sum of the first 100 even numbers
+            int sum = 0;
+            for (int i = 0; i <= 100 ; i++) 
             {
-                Console.WriteLine(count);
-                count++;
+                if(i%2 == 0)
+                {
+                    sum += i;
+                }
             }
-            Console.WriteLine("do while loop");
-            //do while loop
-             count = 1;
-            do
-            {
-                Console.WriteLine(count);
-                count++;
-            } while (count < 7);
-            //for loop
-            Console.WriteLine("for loop");
-            for (count = 0; count < 10; count++)
-            {
-                Console.WriteLine(count);
-            }
+            Console.WriteLine(sum);
 
 
             Console.ReadLine();
