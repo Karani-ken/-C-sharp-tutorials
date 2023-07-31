@@ -12,7 +12,7 @@ namespace intoduction_to_C_
         static void Main(string[] args)
         {
             //variables declaration, datatypes and initialization
-            /* int a = 1;
+             int a = 1;
              int b = 2;
              char sign = '#';
              string name = "kenneth";
@@ -24,18 +24,18 @@ namespace intoduction_to_C_
              Console.WriteLine(sign);
              Console.WriteLine(name);
              Console.WriteLine(radius);
-             Console.WriteLine(isMale);*/
+             Console.WriteLine(isMale);
             //getting user input
-            /* Console.Write("enter your name: ");
+            Console.Write("enter your name: ");
              string name = Console.ReadLine();
              Console.Write("enter your age: ");
              int age = Convert.ToInt32(Console.ReadLine());
              Console.Write("Enter your score: ");
              double score= Convert.ToDouble(Console.ReadLine());
              Console.WriteLine("Hello " + name + " you are " + age + " years old.\n" +
-                 " You scored "+score+" in your exams.");*/
+                 " You scored "+score+" in your exams.");
             //conditional statements
-            /*& //if statement
+             //if statement
              int a = 30;
              int b = 70;
              int c = 100;
@@ -64,9 +64,9 @@ namespace intoduction_to_C_
              else
              {
                  Console.WriteLine($"{c} is the largest");
-              };*/
+              };
             //Loops
-            /* //while loop
+            //while loop
              int count = 0;
               while (count < 10)
              {
